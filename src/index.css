@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.gradient-overlay {
+  background: linear-gradient(180deg, rgba(2,6,23,0.8) 0%, rgba(2,6,23,0.8) 100%), url('https://images.unsplash.com/photo-1555375771-14b1f6eb2e1f?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
